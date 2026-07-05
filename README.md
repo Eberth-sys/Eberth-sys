@@ -1,6 +1,16 @@
+<div align="center">
+
 # Hi, I'm Eberth Alarcón 👋
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer;AI%2FLLM+%26+IoT+Security;Penetration+Testing+%26+Network+Security;I+write+my+own+Python+security+tooling)](https://github.com/Eberth-sys)
+
 **Cybersecurity Engineer · AI/LLM & IoT Security · Pentesting · Network Security · Custom Python security tooling**
+
+📍 Santiago, Chile · 🕐 UTC-4/-3
+
+</div>
+
+---
 
 Cybersecurity engineer based in Santiago, Chile, with around 10 years in IT and 6+ focused on hands-on security operations. My angle is applying traditional, battle-tested security discipline to the new attack surface of AI and LLM systems.
 
@@ -79,7 +89,11 @@ A fully local LLM voice pipeline running on **Ollama**, **LangChain**, and **Doc
 
 ## 🤝 Let's connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eberthalarcon90/)
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eberthalarcon90/)
+
+</div>
 
 <!-- opcional: descomenta la siguiente linea si quieres senalar disponibilidad de forma publica -->
 <!-- Open to remote opportunities in cybersecurity and AI security. -->
