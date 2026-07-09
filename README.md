@@ -12,7 +12,7 @@
 
 ---
 
-Cybersecurity engineer based in Santiago, Chile, with around 10 years in IT and 6+ focused on hands-on security operations. My angle is applying traditional, battle-tested security discipline to the new attack surface of AI and LLM systems.
+Cybersecurity engineer based in Santiago, Chile, with 10+ years in IT, networks and infrastructure. My angle is applying traditional, battle-tested security discipline to the new attack surface of AI and LLM systems.
 
 I built and run the full IT and security function for a ~60-person organization from the ground up, and I write my own security tooling in Python.
 
@@ -31,9 +31,9 @@ I built and run the full IT and security function for a ~60-person organization 
 
 ## 🚀 Featured project
 
-**On-premise AI voice-agent platform** — designed and built as the sole engineer.
+**On-premise AI voice-agent platform** — in development, as sole engineer.
 
-A fully local LLM voice pipeline running on **Ollama**, **LangChain**, and **Docker**, with no dependency on external AI services. The work included:
+A fully local LLM voice pipeline running on **Ollama**, **LangChain**, and **Docker**, with no dependency on external AI services, built secure-by-design and following 12-factor app. The work includes:
 
 - Prompt-injection defense built into the voice pipeline
 - Security controls mapped to the **OWASP LLM Top 10** and the **NIST AI RMF**
