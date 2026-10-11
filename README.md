@@ -58,7 +58,10 @@ ESP32 sensors detect 802.11 deauthentication attacks and report over encrypted B
 ![Nmap](https://img.shields.io/badge/-Nmap-0E83CD?style=flat-square)
 ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![Microsoft Entra ID](https://img.shields.io/badge/-Microsoft_Entra_ID-0078D4?style=flat-square&logo=microsoftentraid&logoColor=white)
+
+![Cisco](https://img.shields.io/badge/-Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![MikroTik](https://img.shields.io/badge/-MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white)
+![ESP32](https://img.shields.io/badge/-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 
 ## 🎓 Education & certifications
 
@@ -68,6 +71,20 @@ ESP32 sensors detect 802.11 deauthentication attacks and report over encrypted B
 - **MikroTik Certified Security Engineer (MTCSE)**
 - **CEH v13** *(in progress)*
 
-## 📊 GitHub activity
+## 📊 GitHub stats
 
-<img src="https://raw.githubusercontent.com/Eberth-sys/Eberth-sys/output/profile-night-view.svg" width="100%" alt="3D contribution calendar with contribution types and most used languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eberth-sys&theme=github_dark&animation=load">
+  <img alt="GitHub stats: commits, pull requests and repositories contributed to" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eberth-sys&theme=github&animation=load" width="49%">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Eberth-sys&theme=github_dark&animation=load">
+  <img alt="Top languages by commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Eberth-sys&theme=github&animation=load" width="49%">
+</picture>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Eberth-sys/Eberth-sys/output/bomberman-contribution-graph-dark.svg">
+  <img alt="Bomberman blasting my GitHub contribution graph" src="https://raw.githubusercontent.com/Eberth-sys/Eberth-sys/output/bomberman-contribution-graph.svg" width="100%">
+</picture>

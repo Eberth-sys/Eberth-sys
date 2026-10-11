@@ -1,4 +1,4 @@
-name: Generate 3D contribution calendar
+name: Generate contribution game
 
 on:
   # 03:00 in Santiago (UTC-3)
@@ -16,16 +16,16 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
 
     steps:
-      # Writes every theme to ./profile-3d-contrib; the README uses profile-night-view.svg.
-      # Add a PROFILE_TOKEN secret (read-only PAT) to also count languages from private repos.
-      - name: Generate 3D contribution SVGs
-        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+      # Writes dist/<game>-contribution-graph.svg and its -dark variant.
+      # Other games: pacman, breakout, galaga, puzzle-bobble, minesweeper
+      - name: Generate Bomberman contribution SVGs
+        uses: abozanona/pacman-contribution-graph@v5.0.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: bomberman
 
       # Published to the "output" branch so daily updates don't add commits to main.
       # Served from https://raw.githubusercontent.com/<user>/<repo>/output/<file>
@@ -33,6 +33,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
-          build_dir: profile-3d-contrib
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
