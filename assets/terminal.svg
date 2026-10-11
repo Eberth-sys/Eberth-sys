@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="284" viewBox="0 0 420 284" role="img" aria-labelledby="t">
+  <title id="t">Animated terminal: whoami, LLM guardrail test, nmap scan and focus areas</title>
+  <style>
+    text { font-family: "Fira Code", "JetBrains Mono", Consolas, Menlo, "DejaVu Sans Mono", "Courier New", monospace; font-size: 14px; fill: #c9d1d9; white-space: pre; }
+    .u { fill: #3fb950; } .p { fill: #58a6ff; } .c { fill: #e6edf3; }
+    .ok { fill: #3fb950; } .bad { fill: #f85149; } .dim { fill: #8b949e; }
+    .cv rect { fill: #0d1117; } .cv .cur { fill: #c9d1d9; }
+
+    .all { animation: g 16s infinite; }
+    @keyframes g { 0%, 95.6% { opacity: 1; } 98.7%, 100% { opacity: 0; } }
+
+    .l1  { animation: a1 16s infinite; }  @keyframes a1  { 0%, 1.87%  { opacity: 0; } 1.88%,  100% { opacity: 1; } }
+    .l2  { animation: a2 16s infinite; }  @keyframes a2  { 0%, 11.87% { opacity: 0; } 11.88%, 100% { opacity: 1; } }
+    .l3  { animation: a3 16s infinite; }  @keyframes a3  { 0%, 15.62% { opacity: 0; } 15.63%, 100% { opacity: 1; } }
+    .l4  { animation: a4 16s infinite; }  @keyframes a4  { 0%, 35.62% { opacity: 0; } 35.63%, 100% { opacity: 1; } }
+    .l5  { animation: a5 16s infinite; }  @keyframes a5  { 0%, 39.37% { opacity: 0; } 39.38%, 100% { opacity: 1; } }
+    .l6  { animation: a6 16s infinite; }  @keyframes a6  { 0%, 43.75% { opacity: 0; } 43.76%, 100% { opacity: 1; } }
+    .l7  { animation: a7 16s infinite; }  @keyframes a7  { 0%, 61.25% { opacity: 0; } 61.26%, 100% { opacity: 1; } }
+    .l8  { animation: a8 16s infinite; }  @keyframes a8  { 0%, 65.62% { opacity: 0; } 65.63%, 100% { opacity: 1; } }
+    .l9  { animation: a9 16s infinite; }  @keyframes a9  { 0%, 77.5%  { opacity: 0; } 77.51%, 100% { opacity: 1; } }
+    .l10 { animation: a10 16s infinite; } @keyframes a10 { 0%, 80.62% { opacity: 0; } 80.63%, 100% { opacity: 1; } }
+
+    /* Typing: a background-coloured cover slides right one character at a time, carrying the cursor */
+    .k1 { animation: k1 16s infinite; }
+    @keyframes k1 { 0%, 5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(6, end); } 8.75% { transform: translateX(53.2px); opacity: 1; } 8.76%, 100% { transform: translateX(53.2px); opacity: 0; } }
+    .k2 { animation: k2 16s infinite; }
+    @keyframes k2 { 0%, 18.12% { transform: translateX(0); opacity: 1; animation-timing-function: steps(28, end); } 31.25% { transform: translateX(233.6px); opacity: 1; } 31.26%, 100% { transform: translateX(233.6px); opacity: 0; } }
+    .k3 { animation: k3 16s infinite; }
+    @keyframes k3 { 0%, 46.25% { transform: translateX(0); opacity: 1; animation-timing-function: steps(20, end); } 55.62% { transform: translateX(168px); opacity: 1; } 55.63%, 100% { transform: translateX(168px); opacity: 0; } }
+    .k4 { animation: k4 16s infinite; }
+    @keyframes k4 { 0%, 68.12% { transform: translateX(0); opacity: 1; animation-timing-function: steps(13, end); } 74.37% { transform: translateX(110.6px); opacity: 1; } 74.38%, 100% { transform: translateX(110.6px); opacity: 0; } }
+
+    .blink { animation: blink 1s steps(1, end) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .cv { display: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="screen"><rect x="1" y="33" width="418" height="250" /></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="419" height="283" rx="10" fill="#0d1117" stroke="#30363d" />
+  <path d="M10.5 0.5 H409.5 A10 10 0 0 1 419.5 10.5 V32.5 H0.5 V10.5 A10 10 0 0 1 10.5 0.5 Z" fill="#161b22" />
+  <line x1="0.5" y1="32.5" x2="419.5" y2="32.5" stroke="#30363d" />
+  <circle cx="18" cy="16.5" r="5.5" fill="#ff5f56" />
+  <circle cx="36" cy="16.5" r="5.5" fill="#ffbd2e" />
+  <circle cx="54" cy="16.5" r="5.5" fill="#27c93f" />
+  <text x="210" y="21" text-anchor="middle" class="dim" style="font-size:12px">eberth@sec: ~</text>
+
+  <g clip-path="url(#screen)">
+    <g class="all">
+      <g class="l1">
+        <text x="16" y="58" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
+        <text x="131" y="58" textLength="49.2" class="c">whoami</text>
+        <g class="cv k1"><rect x="130" y="43" width="53.2" height="20" /><rect class="cur" x="130" y="45" width="8" height="16" /></g>
+      </g>
+      <text class="l2" x="16" y="80" textLength="319.8">Eberth Alarcón · cybersecurity engineer</text>
+
+      <g class="l3">
+        <text x="16" y="102" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
+        <text x="131" y="102" textLength="229.6" class="c">python3 guardrails.py --scan</text>
+        <g class="cv k2"><rect x="130" y="87" width="233.6" height="20" /><rect class="cur" x="130" y="89" width="8" height="16" /></g>
+      </g>
+      <text class="l4" x="16" y="124" textLength="319.8"><tspan class="bad">[!]</tspan> prompt injection detected → <tspan class="bad">blocked</tspan></text>
+      <text class="l5" x="16" y="146" textLength="344.4"><tspan class="ok">[✓]</tspan> canary token intact · output validated</text>
+
+      <g class="l6">
+        <text x="16" y="168" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
+        <text x="131" y="168" textLength="164" class="c">nmap -sV 10.0.0.0/24</text>
+        <g class="cv k3"><rect x="130" y="153" width="168" height="20" /><rect class="cur" x="130" y="155" width="8" height="16" /></g>
+      </g>
+      <text class="l7" x="16" y="190" textLength="319.8"><tspan class="ok">[✓]</tspan> scan done · findings ranked by CVSS</text>
+
+      <g class="l8">
+        <text x="16" y="212" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
+        <text x="131" y="212" textLength="106.6" class="c">cat focus.txt</text>
+        <g class="cv k4"><rect x="130" y="197" width="110.6" height="20" /><rect class="cur" x="130" y="199" width="8" height="16" /></g>
+      </g>
+      <text class="l9 p" x="16" y="234" textLength="319.8">AI security · pentesting · IoT · Python</text>
+
+      <g class="l10">
+        <text x="16" y="256" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
+        <rect class="blink" x="131" y="243" width="8" height="16" fill="#c9d1d9" />
+      </g>
+    </g>
+  </g>
+</svg>
