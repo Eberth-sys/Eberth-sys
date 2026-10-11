@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="284" viewBox="0 0 420 284" role="img" aria-labelledby="t">
-  <title id="t">Animated terminal: whoami, LLM guardrail test, nmap scan and focus areas</title>
+  <title id="t">Animated terminal: LLM guardrail test, nmap scan and Wi-Fi deauthentication alert</title>
   <style>
     text { font-family: "Fira Code", "JetBrains Mono", Consolas, Menlo, "DejaVu Sans Mono", "Courier New", monospace; font-size: 14px; fill: #c9d1d9; white-space: pre; }
     .u { fill: #3fb950; } .p { fill: #58a6ff; } .c { fill: #e6edf3; }
@@ -17,8 +17,8 @@
     .l6  { animation: a6 16s infinite; }  @keyframes a6  { 0%, 43.75% { opacity: 0; } 43.76%, 100% { opacity: 1; } }
     .l7  { animation: a7 16s infinite; }  @keyframes a7  { 0%, 61.25% { opacity: 0; } 61.26%, 100% { opacity: 1; } }
     .l8  { animation: a8 16s infinite; }  @keyframes a8  { 0%, 65.62% { opacity: 0; } 65.63%, 100% { opacity: 1; } }
-    .l9  { animation: a9 16s infinite; }  @keyframes a9  { 0%, 77.5%  { opacity: 0; } 77.51%, 100% { opacity: 1; } }
-    .l10 { animation: a10 16s infinite; } @keyframes a10 { 0%, 80.62% { opacity: 0; } 80.63%, 100% { opacity: 1; } }
+    .l9  { animation: a9 16s infinite; }  @keyframes a9  { 0%, 78.75% { opacity: 0; } 78.76%, 100% { opacity: 1; } }
+    .l10 { animation: a10 16s infinite; } @keyframes a10 { 0%, 81.87% { opacity: 0; } 81.88%, 100% { opacity: 1; } }
 
     /* Typing: a background-coloured cover slides right one character at a time, carrying the cursor */
     .k1 { animation: k1 16s infinite; }
@@ -28,7 +28,7 @@
     .k3 { animation: k3 16s infinite; }
     @keyframes k3 { 0%, 46.25% { transform: translateX(0); opacity: 1; animation-timing-function: steps(20, end); } 55.62% { transform: translateX(168px); opacity: 1; } 55.63%, 100% { transform: translateX(168px); opacity: 0; } }
     .k4 { animation: k4 16s infinite; }
-    @keyframes k4 { 0%, 68.12% { transform: translateX(0); opacity: 1; animation-timing-function: steps(13, end); } 74.37% { transform: translateX(110.6px); opacity: 1; } 74.38%, 100% { transform: translateX(110.6px); opacity: 0; } }
+    @keyframes k4 { 0%, 68.12% { transform: translateX(0); opacity: 1; animation-timing-function: steps(24, end); } 75.62% { transform: translateX(200.8px); opacity: 1; } 75.63%, 100% { transform: translateX(200.8px); opacity: 0; } }
 
     .blink { animation: blink 1s steps(1, end) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
@@ -57,7 +57,7 @@
         <text x="131" y="58" textLength="49.2" class="c">whoami</text>
         <g class="cv k1"><rect x="130" y="43" width="53.2" height="20" /><rect class="cur" x="130" y="45" width="8" height="16" /></g>
       </g>
-      <text class="l2" x="16" y="80" textLength="319.8">Eberth Alarcón · cybersecurity engineer</text>
+      <text class="l2" x="16" y="80" textLength="49.2">eberth</text>
 
       <g class="l3">
         <text x="16" y="102" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
@@ -65,21 +65,21 @@
         <g class="cv k2"><rect x="130" y="87" width="233.6" height="20" /><rect class="cur" x="130" y="89" width="8" height="16" /></g>
       </g>
       <text class="l4" x="16" y="124" textLength="319.8"><tspan class="bad">[!]</tspan> prompt injection detected → <tspan class="bad">blocked</tspan></text>
-      <text class="l5" x="16" y="146" textLength="344.4"><tspan class="ok">[✓]</tspan> canary token intact · output validated</text>
+      <text class="l5" x="16" y="146" textLength="278.8"><tspan class="ok">[✓]</tspan> response validated → delivered</text>
 
       <g class="l6">
         <text x="16" y="168" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
         <text x="131" y="168" textLength="164" class="c">nmap -sV 10.0.0.0/24</text>
         <g class="cv k3"><rect x="130" y="153" width="168" height="20" /><rect class="cur" x="130" y="155" width="8" height="16" /></g>
       </g>
-      <text class="l7" x="16" y="190" textLength="319.8"><tspan class="ok">[✓]</tspan> scan done · findings ranked by CVSS</text>
+      <text class="l7" x="16" y="190" textLength="262.4"><tspan class="ok">[✓]</tspan> scan complete · report saved</text>
 
       <g class="l8">
         <text x="16" y="212" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>
-        <text x="131" y="212" textLength="106.6" class="c">cat focus.txt</text>
-        <g class="cv k4"><rect x="130" y="197" width="110.6" height="20" /><rect class="cur" x="130" y="199" width="8" height="16" /></g>
+        <text x="131" y="212" textLength="196.8" class="c">tail -f deauth-alert.log</text>
+        <g class="cv k4"><rect x="130" y="197" width="200.8" height="20" /><rect class="cur" x="130" y="199" width="8" height="16" /></g>
       </g>
-      <text class="l9 p" x="16" y="234" textLength="319.8">AI security · pentesting · IoT · Python</text>
+      <text class="l9" x="16" y="234" textLength="311.6"><tspan class="bad">[!]</tspan> deauth flood on ch 6 → alert sent</text>
 
       <g class="l10">
         <text x="16" y="256" textLength="106.6"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$</text>

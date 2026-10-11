@@ -2,56 +2,44 @@
 
 # Hi, I'm Eberth Alarcón 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer;AI+Security;AI+Solutions+Architect;I+write+my+own+Python+security+tooling)](https://github.com/Eberth-sys)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eberthalarcon90/)
-
-📍 Santiago, Chile · 🕐 UTC-4/-3
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer;AI+Security;AI+Solutions+Architect)](https://github.com/Eberth-sys)
 
 <!-- opcional: descomenta la siguiente linea si quieres senalar disponibilidad de forma publica -->
 <!-- Open to remote opportunities in cybersecurity and AI security. -->
 
 </div>
 
----
-
 ## 👨‍💻 About me
 
-<img src="assets/terminal.svg" align="right" width="48%" alt="Animated terminal running whoami, an LLM guardrail test and an nmap scan" />
+<img src="assets/terminal.svg" align="right" width="48%" alt="Animated terminal running an LLM guardrail test, an nmap scan and a Wi-Fi deauthentication alert" />
 
-Cybersecurity engineer with 10+ years in IT, networks and infrastructure. My angle is applying traditional, battle-tested security discipline to the new attack surface of AI and LLM systems.
+Cybersecurity engineer with 10+ years in IT, networks and infrastructure, focused on applying proven security discipline to the new attack surface of AI and LLM systems. I built and ran the full IT and security function for a ~60-person organization from the ground up.
 
-- 🏗️ Built and ran the full IT and security function for a ~60-person organization from the ground up
-- 🤖 Designed and secured, as its sole engineer, an on-premises LLM voice agent
-- 🐍 I write my own security tooling in Python
-- 🌱 Currently preparing for **CEH v13**
-- 💬 Ask me about AI/LLM security, pentesting or IoT security
+**Focus areas**
+
+- **AI/LLM security:** securing LLM applications and agents, from design to adversarial testing
+- **Pentesting:** internal penetration testing and CVSS-based vulnerability management
+- **Identity & infrastructure:** Active Directory and Entra ID hybrid identity, MFA, endpoint hardening, network segmentation
+- **Governance:** threat modeling, secure SDLC, incident response, ISO/IEC 27001 audit readiness
+- **IoT & tooling:** IoT security and custom Python security tools
 
 <br clear="right" />
 
 ## 🚀 Featured work
 
-### 🔐 On-premises AI voice agent — sole engineer (2025–2026)
+### 🔐 AI voice agent for customer calls (sole engineer, 2025-2026)
 
-Fully local LLM voice pipeline over SIP/RTP (Faster-Whisper, Ollama, LangChain, Piper) in Docker, with no dependency on external AI services. Taken to preproduction on a GPU server.
+On-premises LLM voice pipeline over SIP/RTP (Faster-Whisper, Ollama, LangChain, Piper), containerized with Docker and running without external AI services. Taken to preproduction on a GPU server.
 
-- **The LLM has no tool access:** code, not the model, controls consent, data capture and actions
+- **No tool access for the LLM:** code, not the model, controls consent, data capture and actions
 - **Layered guardrails:** prompt-injection detection, per-session canary tokens and output validation, mapped to the OWASP LLM Top 10, MITRE ATLAS and NIST AI RMF
-- **Validated** with 800+ real calls, including adversarial ones, and 6,600+ automated tests
+- **Tested at scale:** 800+ real calls, including adversarial ones, and 6,600+ automated tests
 
-<sub>Company project: the source code is private.</sub>
+<sub>Source code is private (company project).</sub>
 
-### 📡 [Deauth-Alert](https://github.com/Eberth-sys/Deauth-Alert-WiFi-IoT-System) — Wi-Fi attack detection with IoT
+### 📡 [Deauth-Alert](https://github.com/Eberth-sys/Deauth-Alert-WiFi-IoT-System): Wi-Fi intrusion detection with IoT
 
-ESP32 sensors detect 802.11 deauthentication attacks and report over encrypted BLE to a Raspberry Pi 5, with a FastAPI/PostgreSQL backend, TLS and Telegram alerts. Postgraduate thesis at Universidad de Buenos Aires, graded 10/10.
-
-## 🛠️ Focus areas
-
-- **AI/LLM security** — prompt-injection defense, canary tokens, output validation and excessive-agency controls
-- **Pentesting & vulnerability management** — internal pentesting, CVSS-based prioritization and remediation
-- **Identity & infrastructure** — Active Directory + Entra ID hybrid identity, MFA, GPO hardening, EDR, VLAN segmentation
-- **Secure SDLC & governance** — threat modeling, security design reviews, incident response, ISO/IEC 27001 audit readiness
-- **IoT security & Python tooling** — ESP32/Raspberry Pi systems and my own security scripts
+ESP32 sensors detect 802.11 deauthentication attacks and report over encrypted BLE to a Raspberry Pi 5 gateway. Backend in FastAPI and PostgreSQL with JWT, TLS and Telegram alerts. UBA postgraduate thesis, graded 10/10.
 
 ## 🧰 Tech stack
 
@@ -74,23 +62,12 @@ ESP32 sensors detect 802.11 deauthentication attacks and report over encrypted B
 
 ## 🎓 Education & certifications
 
-- **Postgraduate Specialization in IoT** — Universidad de Buenos Aires (UBA), thesis graded 10/10
-- **Electronics Engineering, Telecommunications major** — URBE, Venezuela, graduated with honors
-- **Diplomas in Cybersecurity Tools & Network Security** — Universidad de Santiago de Chile (USACH)
-- **MikroTik Certified Security Engineer (MTCSE)** · **CEH v13** *(in progress)*
+- **Postgraduate Specialization in IoT**, Universidad de Buenos Aires (UBA)
+- **Electronics Engineering degree, Telecommunications major**, URBE, Venezuela (with honors)
+- **Diplomas in Cybersecurity Tools and Network Security**, Universidad de Santiago de Chile (USACH)
+- **MikroTik Certified Security Engineer (MTCSE)**
+- **CEH v13** *(in progress)*
 
-## 📈 GitHub activity
+## 📊 GitHub activity
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Eberth-sys&hide_border=true&background=0D1117&stroke=30363D&ring=0A66C2&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E">
-  <img alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=Eberth-sys&hide_border=true&background=FFFFFF&stroke=D0D7DE&ring=0A66C2&fire=0A66C2&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=0A66C2&sideLabels=59636E&dates=59636E">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Eberth-sys/Eberth-sys/output/github-snake-dark.svg">
-  <img alt="Snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Eberth-sys/Eberth-sys/output/github-snake.svg">
-</picture>
-
-</div>
+<img src="https://raw.githubusercontent.com/Eberth-sys/Eberth-sys/output/profile-night-view.svg" width="100%" alt="3D contribution calendar with contribution types and most used languages" />
