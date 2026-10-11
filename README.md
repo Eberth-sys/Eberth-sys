@@ -73,14 +73,7 @@ ESP32 sensors detect 802.11 deauthentication attacks and report over encrypted B
 
 ## 📊 GitHub stats
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eberth-sys&theme=github_dark&animation=load">
-  <img alt="GitHub stats: commits, pull requests and repositories contributed to" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eberth-sys&theme=github&animation=load" width="49%">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Eberth-sys&theme=github_dark&animation=load">
-  <img alt="Top languages by commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Eberth-sys&theme=github&animation=load" width="49%">
-</picture>
+<img src="https://raw.githubusercontent.com/Eberth-sys/Eberth-sys/output/stats.svg" width="100%" alt="GitHub stats: all-time contributions, active days, longest streak, pull requests and top languages by commit" />
 
 <br />
 

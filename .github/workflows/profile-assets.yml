@@ -1,4 +1,4 @@
-name: Generate contribution game
+name: Generate profile assets
 
 on:
   # 03:00 in Santiago (UTC-3)
@@ -9,7 +9,7 @@ on:
     branches:
       - main
     paths:
-      - .github/workflows/**
+      - .github/**
 
 jobs:
   generate:
@@ -19,6 +19,8 @@ jobs:
     timeout-minutes: 20
 
     steps:
+      - uses: actions/checkout@v5
+
       # Writes dist/<game>-contribution-graph.svg and its -dark variant.
       # Other games: pacman, breakout, galaga, puzzle-bobble, minesweeper
       - name: Generate Bomberman contribution SVGs
@@ -26,6 +28,13 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           games: bomberman
+
+      # Add a PROFILE_TOKEN secret (read-only PAT) to also count languages from private repos
+      - name: Render stats card
+        run: node .github/scripts/stats-card.mjs dist/stats.svg
+        env:
+          GH_LOGIN: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
 
       # Published to the "output" branch so daily updates don't add commits to main.
       # Served from https://raw.githubusercontent.com/<user>/<repo>/output/<file>
