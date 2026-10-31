@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="160" viewBox="0 0 840 160" role="img" aria-labelledby="t">
+  <title id="t">GitHub stats: 1,509 contributions since 2020, 208 active days, 14-day longest streak, 53 pull requests</title>
+  <style>
+    text { font-family: "Fira Code", "JetBrains Mono", Consolas, Menlo, "DejaVu Sans Mono", "Courier New", monospace; fill: #c9d1d9; }
+    .u { fill: #3fb950; } .p { fill: #58a6ff; }
+    .n { font-size: 22px; font-weight: 700; fill: #58a6ff; }
+    .l { font-size: 11.5px; fill: #8b949e; }
+    .g { font-size: 11.5px; }
+    .in { animation: in .6s ease-out backwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(4px); } }
+    .grow { transform-box: fill-box; transform-origin: 0 50%; animation: grow .6s ease-out backwards; }
+    @keyframes grow { from { transform: scaleX(0); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs><clipPath id="bar"><rect x="24" y="122" width="792" height="6" rx="3" /></clipPath></defs>
+  <rect x="0.5" y="0.5" width="839" height="159" rx="10" fill="#0d1117" stroke="#30363d" />
+  <path d="M10.5 0.5 H829.5 A10 10 0 0 1 839.5 10.5 V32.5 H0.5 V10.5 A10 10 0 0 1 10.5 0.5 Z" fill="#161b22" />
+  <line x1="0.5" y1="32.5" x2="839.5" y2="32.5" stroke="#30363d" />
+  <circle cx="18" cy="16.5" r="5.5" fill="#ff5f56" />
+  <circle cx="36" cy="16.5" r="5.5" fill="#ffbd2e" />
+  <circle cx="54" cy="16.5" r="5.5" fill="#27c93f" />
+  <text x="420" y="21" text-anchor="middle" class="l" style="font-size:12px">eberth@sec: ~/stats</text>
+  <text x="24" y="58" style="font-size:13px"><tspan class="u">eberth@sec</tspan>:<tspan class="p">~</tspan>$ gh stats --all-time</text>
+  <g class="in" style="animation-delay:200ms"><text x="24" y="90" class="n">1,509</text><text x="24" y="107" class="l">contributions since 2020</text></g><line x1="206" y1="72" x2="206" y2="108" stroke="#21262d" /><g class="in" style="animation-delay:320ms"><text x="222" y="90" class="n">208</text><text x="222" y="107" class="l">active days</text></g><line x1="404" y1="72" x2="404" y2="108" stroke="#21262d" /><g class="in" style="animation-delay:440ms"><text x="420" y="90" class="n">14 days</text><text x="420" y="107" class="l">longest streak</text></g><line x1="602" y1="72" x2="602" y2="108" stroke="#21262d" /><g class="in" style="animation-delay:560ms"><text x="618" y="90" class="n">53</text><text x="618" y="107" class="l">pull requests</text></g>
+  <g clip-path="url(#bar)"><rect class="grow" style="animation-delay:700ms" x="24.0" y="122" width="621.4" height="6" fill="#3178c6" /><rect class="grow" style="animation-delay:790ms" x="647.4" y="122" width="107.8" height="6" fill="#3572A5" /><rect class="grow" style="animation-delay:880ms" x="757.2" y="122" width="56.8" height="6" fill="#e34c26" /></g><g class="in" style="animation-delay:700ms"><circle cx="28" cy="142" r="4" fill="#3178c6" /><text x="37" y="146" class="g">TypeScript <tspan class="l">79%</tspan></text></g><g class="in" style="animation-delay:790ms"><circle cx="156" cy="142" r="4" fill="#3572A5" /><text x="165" y="146" class="g">Python <tspan class="l">14%</tspan></text></g><g class="in" style="animation-delay:880ms"><circle cx="256" cy="142" r="4" fill="#e34c26" /><text x="265" y="146" class="g">HTML <tspan class="l">7%</tspan></text></g>
+</svg>
